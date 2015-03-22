@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80A14111ABB5A4500A1990D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14101ABB5A4500A1990D /* AppDelegate.swift */; };
+		B80A14131ABB5A4500A1990D /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14121ABB5A4500A1990D /* MemeEditorViewController.swift */; };
+		B80A14161ABB5A4500A1990D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A14141ABB5A4500A1990D /* Main.storyboard */; };
+		B80A14181ABB5A4500A1990D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80A14171ABB5A4500A1990D /* Images.xcassets */; };
+		B80A141B1ABB5A4500A1990D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80A14191ABB5A4500A1990D /* LaunchScreen.xib */; };
+		B80A14271ABB5A4500A1990D /* FreedoMemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14261ABB5A4500A1990D /* FreedoMemeTests.swift */; };
+		B80A14311ABB5FA800A1990D /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14301ABB5FA800A1990D /* MemeCollectionViewController.swift */; };
+		B80A14331ABB607300A1990D /* MemeCollectionCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14321ABB607300A1990D /* MemeCollectionCellViewController.swift */; };
+		B80A14351ABB60BD00A1990D /* MemeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14341ABB60BD00A1990D /* MemeTableViewController.swift */; };
+		B80A14371ABB60F600A1990D /* MemeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14361ABB60F600A1990D /* MemeDetailViewController.swift */; };
+		B80A14391ABB612A00A1990D /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A14381ABB612A00A1990D /* Meme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B80A14211ABB5A4500A1990D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80A14031ABB5A4500A1990D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80A140A1ABB5A4500A1990D;
+			remoteInfo = FreedoMeme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B80A140B1ABB5A4500A1990D /* FreedoMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedoMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80A140F1ABB5A4500A1990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80A14101ABB5A4500A1990D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B80A14121ABB5A4500A1990D /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
+		B80A14151ABB5A4500A1990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B80A14171ABB5A4500A1990D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B80A141A1ABB5A4500A1990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B80A14201ABB5A4500A1990D /* FreedoMemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedoMemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80A14251ABB5A4500A1990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80A14261ABB5A4500A1990D /* FreedoMemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedoMemeTests.swift; sourceTree = "<group>"; };
+		B80A14301ABB5FA800A1990D /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewController.swift; sourceTree = "<group>"; };
+		B80A14321ABB607300A1990D /* MemeCollectionCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollectionCellViewController.swift; sourceTree = "<group>"; };
+		B80A14341ABB60BD00A1990D /* MemeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTableViewController.swift; sourceTree = "<group>"; };
+		B80A14361ABB60F600A1990D /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
+		B80A14381ABB612A00A1990D /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80A14081ABB5A4500A1990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80A141D1ABB5A4500A1990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80A14021ABB5A4500A1990D = {
+			isa = PBXGroup;
+			children = (
+				B80A140D1ABB5A4500A1990D /* FreedoMeme */,
+				B80A14231ABB5A4500A1990D /* FreedoMemeTests */,
+				B80A140C1ABB5A4500A1990D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80A140C1ABB5A4500A1990D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80A140B1ABB5A4500A1990D /* FreedoMeme.app */,
+				B80A14201ABB5A4500A1990D /* FreedoMemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80A140D1ABB5A4500A1990D /* FreedoMeme */ = {
+			isa = PBXGroup;
+			children = (
+				B80A14101ABB5A4500A1990D /* AppDelegate.swift */,
+				B80A14121ABB5A4500A1990D /* MemeEditorViewController.swift */,
+				B80A14141ABB5A4500A1990D /* Main.storyboard */,
+				B80A14301ABB5FA800A1990D /* MemeCollectionViewController.swift */,
+				B80A14321ABB607300A1990D /* MemeCollectionCellViewController.swift */,
+				B80A14341ABB60BD00A1990D /* MemeTableViewController.swift */,
+				B80A14361ABB60F600A1990D /* MemeDetailViewController.swift */,
+				B80A14381ABB612A00A1990D /* Meme.swift */,
+				B80A14171ABB5A4500A1990D /* Images.xcassets */,
+				B80A14191ABB5A4500A1990D /* LaunchScreen.xib */,
+				B80A140E1ABB5A4500A1990D /* Supporting Files */,
+			);
+			path = FreedoMeme;
+			sourceTree = "<group>";
+		};
+		B80A140E1ABB5A4500A1990D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80A140F1ABB5A4500A1990D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B80A14231ABB5A4500A1990D /* FreedoMemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B80A14261ABB5A4500A1990D /* FreedoMemeTests.swift */,
+				B80A14241ABB5A4500A1990D /* Supporting Files */,
+			);
+			path = FreedoMemeTests;
+			sourceTree = "<group>";
+		};
+		B80A14241ABB5A4500A1990D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80A14251ABB5A4500A1990D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80A140A1ABB5A4500A1990D /* FreedoMeme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80A142A1ABB5A4500A1990D /* Build configuration list for PBXNativeTarget "FreedoMeme" */;
+			buildPhases = (
+				B80A14071ABB5A4500A1990D /* Sources */,
+				B80A14081ABB5A4500A1990D /* Frameworks */,
+				B80A14091ABB5A4500A1990D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreedoMeme;
+			productName = FreedoMeme;
+			productReference = B80A140B1ABB5A4500A1990D /* FreedoMeme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B80A141F1ABB5A4500A1990D /* FreedoMemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80A142D1ABB5A4500A1990D /* Build configuration list for PBXNativeTarget "FreedoMemeTests" */;
+			buildPhases = (
+				B80A141C1ABB5A4500A1990D /* Sources */,
+				B80A141D1ABB5A4500A1990D /* Frameworks */,
+				B80A141E1ABB5A4500A1990D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80A14221ABB5A4500A1990D /* PBXTargetDependency */,
+			);
+			name = FreedoMemeTests;
+			productName = FreedoMemeTests;
+			productReference = B80A14201ABB5A4500A1990D /* FreedoMemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80A14031ABB5A4500A1990D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = FreedomMind;
+				TargetAttributes = {
+					B80A140A1ABB5A4500A1990D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B80A141F1ABB5A4500A1990D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B80A140A1ABB5A4500A1990D;
+					};
+				};
+			};
+			buildConfigurationList = B80A14061ABB5A4500A1990D /* Build configuration list for PBXProject "FreedoMeme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80A14021ABB5A4500A1990D;
+			productRefGroup = B80A140C1ABB5A4500A1990D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80A140A1ABB5A4500A1990D /* FreedoMeme */,
+				B80A141F1ABB5A4500A1990D /* FreedoMemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80A14091ABB5A4500A1990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80A14161ABB5A4500A1990D /* Main.storyboard in Resources */,
+				B80A141B1ABB5A4500A1990D /* LaunchScreen.xib in Resources */,
+				B80A14181ABB5A4500A1990D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80A141E1ABB5A4500A1990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80A14071ABB5A4500A1990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80A14331ABB607300A1990D /* MemeCollectionCellViewController.swift in Sources */,
+				B80A14131ABB5A4500A1990D /* MemeEditorViewController.swift in Sources */,
+				B80A14391ABB612A00A1990D /* Meme.swift in Sources */,
+				B80A14311ABB5FA800A1990D /* MemeCollectionViewController.swift in Sources */,
+				B80A14371ABB60F600A1990D /* MemeDetailViewController.swift in Sources */,
+				B80A14351ABB60BD00A1990D /* MemeTableViewController.swift in Sources */,
+				B80A14111ABB5A4500A1990D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80A141C1ABB5A4500A1990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80A14271ABB5A4500A1990D /* FreedoMemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B80A14221ABB5A4500A1990D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80A140A1ABB5A4500A1990D /* FreedoMeme */;
+			targetProxy = B80A14211ABB5A4500A1990D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B80A14141ABB5A4500A1990D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80A14151ABB5A4500A1990D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B80A14191ABB5A4500A1990D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80A141A1ABB5A4500A1990D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80A14281ABB5A4500A1990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B80A14291ABB5A4500A1990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80A142B1ABB5A4500A1990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreedoMeme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B80A142C1ABB5A4500A1990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreedoMeme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B80A142E1ABB5A4500A1990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreedoMemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreedoMeme.app/FreedoMeme";
+			};
+			name = Debug;
+		};
+		B80A142F1ABB5A4500A1990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreedoMemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreedoMeme.app/FreedoMeme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80A14061ABB5A4500A1990D /* Build configuration list for PBXProject "FreedoMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80A14281ABB5A4500A1990D /* Debug */,
+				B80A14291ABB5A4500A1990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80A142A1ABB5A4500A1990D /* Build configuration list for PBXNativeTarget "FreedoMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80A142B1ABB5A4500A1990D /* Debug */,
+				B80A142C1ABB5A4500A1990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B80A142D1ABB5A4500A1990D /* Build configuration list for PBXNativeTarget "FreedoMemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80A142E1ABB5A4500A1990D /* Debug */,
+				B80A142F1ABB5A4500A1990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80A14031ABB5A4500A1990D /* Project object */;
+}
